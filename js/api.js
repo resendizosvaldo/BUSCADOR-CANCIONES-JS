@@ -22,7 +22,7 @@ class API {
                     UI.divMensajes.classList.add('error');
 
                     setTimeout(() => {
-                        I.divMensajes.textContent = ``;
+                        UI.divMensajes.textContent = ``;
                         UI.divMensajes.classList.remove('error');
                     }, 3000);
                 }
